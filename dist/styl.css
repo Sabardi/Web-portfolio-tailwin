@@ -804,8 +804,56 @@ video {
     right: 0px;
   }
 
+  .lg\:right-4 {
+    right: 1rem;
+  }
+
+  .lg\:right-10 {
+    right: 2.5rem;
+  }
+
+  .lg\:right-32 {
+    right: 8rem;
+  }
+
+  .lg\:left-5 {
+    left: 1.25rem;
+  }
+
+  .lg\:left-52 {
+    left: 13rem;
+  }
+
+  .lg\:left-20 {
+    left: 5rem;
+  }
+
+  .lg\:left-2 {
+    left: 0.5rem;
+  }
+
+  .lg\:left-2\/4 {
+    left: 50%;
+  }
+
+  .lg\:left-1\/4 {
+    left: 25%;
+  }
+
+  .lg\:left-0 {
+    left: 0px;
+  }
+
   .lg\:mt-9 {
     margin-top: 2.25rem;
+  }
+
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .lg\:mt-2 {
+    margin-top: 0.5rem;
   }
 
   .lg\:w-1\/2 {
