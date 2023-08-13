@@ -13,3 +13,14 @@ body {
 .hamburger-line2 {
     @apply h-1 w-8 bg-black my-2 block rounded-full;
 }
+
+.hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+.hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+}
