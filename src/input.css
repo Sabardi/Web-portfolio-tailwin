@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'inter', sans-serif;
+}
+
+.hamburger-line {
+    @apply h-[2px] w-[30px] my-2 bg-black block;
+}
+
+.hamburger-line2 {
+    @apply h-1 w-8 bg-black my-2 block rounded-full;
+}
